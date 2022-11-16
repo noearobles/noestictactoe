@@ -2,44 +2,56 @@
   display: grid;
   justify-content: center;
   justify-items: center;
+
 }
 
 body {
   width: auto;
   background: #000;
-  padding-top: 400px;
+  padding: 3%;
 
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
 .container {
-  height: 100%;
+  display: flex;
+  flex-direction: column;
   width: 100%;
   background-color: rgb(112, 202, 22);
 }
 
 button {
   margin-bottom: 10px;
+  font-size: 40px;
 }
 
 td {
-  height: 150px;
-  width: 150px;
+  height: 250px;
+  width: 250px;
   text-align: center;
   border: 5px solid black;
   border-color: crimson;
-  font-size: 100px;
+  font-size: 200px;
 }
 
 h1,
 p {
   color: crimson;
   ;
+  font-size: 80px;
 }
 
 table {
   margin: auto auto;
   color: crimson;
   box-shadow: 0 0 15px 5px rgb(50, 50, 50, 0.5);
+  margin-bottom: 50px;
 }
 
 table:hover {
@@ -49,4 +61,10 @@ table:hover {
 tr {
   display: grid;
   grid-template-columns: repeat(3, 1fr)
+}
+
+@media all and (max-device-width:1200px) {
+body{
+    padding-top: 400px;
+  }
 }
