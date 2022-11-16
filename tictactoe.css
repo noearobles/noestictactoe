@@ -1,42 +1,52 @@
-
 .jumbotron {
-    display: grid;
-    justify-content: center;
-    justify-items: center;
-  }
-  .container {
-    background-color: rgb(112, 202, 22);
-  }
-  button {
-    margin-bottom: 10px;
-  }
-  
-  td {
-    height: 150px;
-    width: 150px;
-    text-align: center;
-    border: 5px solid black;
-    border-color: crimson;
-    font-size: 100px;
-  }
-  
-  h1,
-  p {
-    color: crimson;
-    ;
-  }
-  
-  table {
-    margin: auto auto;
-    color: crimson;
-    box-shadow: 0 0 15px 5px rgb(50, 50, 50, 0.5);
-  }
-  
-  table:hover {
-    cursor: pointer;
-  }
-  
-  tr {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr)
-  }
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+}
+
+body {
+  width: auto;
+  background: #000;
+  padding-top: 400px;
+
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(112, 202, 22);
+}
+
+button {
+  margin-bottom: 10px;
+}
+
+td {
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  border: 5px solid black;
+  border-color: crimson;
+  font-size: 100px;
+}
+
+h1,
+p {
+  color: crimson;
+  ;
+}
+
+table {
+  margin: auto auto;
+  color: crimson;
+  box-shadow: 0 0 15px 5px rgb(50, 50, 50, 0.5);
+}
+
+table:hover {
+  cursor: pointer;
+}
+
+tr {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr)
+}
