@@ -122,7 +122,7 @@ const resetBoard = () => {
 
 
 const timeFunction = () => {
-  setTimeout(function () { window.alert(`Player ${currentMarker} won!`); }, 2000);
+  setTimeout(function () { window.alert(`Player ${currentMarker} won!`); }, 1000);
 }
 
 const checkForWin = () => {
